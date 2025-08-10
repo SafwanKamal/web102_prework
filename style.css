@@ -3,6 +3,11 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    margin: 0;
+}
+
+#generalContainer{
+    padding: 20px;
 }
 
 #tentacles {
@@ -12,11 +17,12 @@ body {
 .header {
     display: flex;
     background-color: lightblue;
-    padding: 1%;
     align-items: center;
-    margin-left: -10px;
+    justify-content: space-around;
+    padding: 0;
+    /* margin-left: -10px;
     margin-right: -10px;
-    margin-top: -10px;
+    margin-top: -10px; */
 }
 
 .stats-container {
@@ -27,7 +33,6 @@ body {
 
 .stats-container:hover {
     box-shadow: 0 0 30px lightblue;
-
 }
 
 .stats-card {
@@ -75,6 +80,37 @@ body {
 
 button {
     font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+
+button:hover{
+    box-shadow: 0 0 30px lightblue;
+}
+
+#searchGames:hover{
+    box-shadow: 0 0 30px #a8b0bc;
+}
+
+input[type="text"] {
+    width: 500px;
+    height: 30px;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    font-size: large;
+}
+
+.searchContainer{
+    font-family: 'Cabin';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
     border: none;
     padding: 1%;
     margin: 1%;

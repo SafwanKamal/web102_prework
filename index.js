@@ -52,7 +52,7 @@ function addGamesToPage(games) {
 
             <img src = '${games[i].img}' height = 150px width = 250px>
 
-            <h2>${games[i].name}</h1>
+            <h2>${games[i].name}</h2>
             <p>${games[i].description}</p>
         `;
 
@@ -178,7 +178,7 @@ let numberOfUnfundedGames = GAMES_JSON.filter((game) => {
 let descriptionMessage = `A total of $${totalPledged.toLocaleString('en-US')} \
 has been raised for ${GAMES_JSON.length.toLocaleString('en-US')} ${(GAMES_JSON.length > 1) ? 'games' : 'game'}. \
 Currently, ${numberOfUnfundedGames.toLocaleString('en-US')} ${(numberOfUnfundedGames > 1) ? 'games' : 'game'} remains \
-unfunded. We need your help to fund these amazing games!`
+unfunded. We need your help to fund ${(GAMES_JSON.length > 1) ? 'these' : 'this'} amazing ${(GAMES_JSON.length > 1) ? 'games' : 'game'}!`
 
 // create a new DOM element containing the template string and append it to the description container
 
@@ -215,3 +215,5 @@ firstGameContainer.append(divTop1);
 let divTop2 = document.createElement('div');
 divTop2.innerHTML = top2.name;
 secondGameContainer.append(divTop2);
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- header row with logo -->
+
+    <div class="header">
+        <a href="./index.html"><img id="tentacles" src="assets/tentacles.png"></a>
+        <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <a href="./index.html"><button id="searchGames">Go to Homepage</button></a>
+    </div>
+
+    <div id="generalContainer">
+        
+        <div class="searchContainer">
+            <h2>Search for a Game</h2>
+        </div>
+        <div class="searchContainer">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+            
+    </div>
+
+    <div id="button-container">
+        <button id="unfunded-btn">Show Unfunded Only</button>
+        <button id="funded-btn">Show Funded Only</button>
+        <button id="all-btn">Show All Games</button>
+    </div>
+
+
+    <div id="games-container">
+
+    </div>
+
+    <script type="module" src="gameSearch.js"></script>
+  </body>
+</html>
