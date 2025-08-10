@@ -23,7 +23,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<video src="SeamonsterCrowdfundingOverview.mp4" controls width="600"></video>
+[Watch the Overview](https://drive.google.com/file/d/1TKr1EbASl9ZvdXGKm1oLF9bLWnt5tD27/view?usp=sharing)
+
+
 <!-- Replace this with whatever GIF tool you used! -->
 VIDEO created with ...  
 [LOOM](https://www.loom.com/)
