@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *SeaMonster Crowdfunding Website*
 
-Submitted by: **Your Name Here**
+Submitted by: **Safwan Kamal**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+*SeaMonster Crowdfunding Website** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## Required Features
 
@@ -23,11 +23,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://www.loom.com/share/280d7428d5514ce2a1d18c3452611337?sid=b169486f-7cef-4d35-ac15-9e680898e76d' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<video src="SeamonsterCrowdfundingOverview.mp4" controls width="600"></video>
 <!-- Replace this with whatever GIF tool you used! -->
 VIDEO created with ...  
-LOOM
+[LOOM](https://www.loom.com/)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
